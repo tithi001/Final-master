@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PoliceContactsFragment">
+
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:id="@+id/scroll2"
+        android:layout_height="wrap_content"
+        android:scrollbarAlwaysDrawHorizontalTrack="true"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:text="  List of Police Contacts"
+                    android:textSize="20dp" />
+
+                <Button
+                    android:id="@+id/filter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="7dp"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:text="Filter" />
+            </LinearLayout>
+            <ListView
+                android:id="@+id/policelistview"
+                android:layout_width="wrap_content"
+                android:layout_height="508dp"/>
+        </LinearLayout>
+    </HorizontalScrollView>
+
+
+</LinearLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/faria"
+    >
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:src="@drawable/voice_icon"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Voice Input"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Voice Input is referred to receive continuous input from the
+ user and match with a certain phrase, that certain phrase will be provided manually
+ auto saved by the system .We highly recommend you to use our triggerphrase function
+ to save a certain phrase,when you will go to that option it will show you the earlier
+ saved phrases,you can change the phrase according to your desire but we recommend you
+ to use a rare and uncommon phrase.Our app continuously runs in the background."
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textColor="@android:color/white"/>
+
+</LinearLayout>

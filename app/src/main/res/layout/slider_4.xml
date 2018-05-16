@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/faria"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:src="@drawable/sos" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="SOS"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="SOS generally referred as Emergency
+  mode ,that means when there occurs any type of Emergency
+  situation the system will make call to your special contacts(will be described later)
+  and the nearby police stations but the call duration will be very short
+  and the system will also make sure to send your last location
+  to your special contacts as text message, alert message will
+  be sent to the nearby users."
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="20dp" />
+
+</LinearLayout>

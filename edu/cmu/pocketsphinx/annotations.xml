@@ -1,0 +1,5 @@
+<root>
+    <item name='edu.cmu.pocketsphinx.SpeechRecognizer'>
+        <annotation name='java.lang.Deprecated' />
+    </item>
+</root>

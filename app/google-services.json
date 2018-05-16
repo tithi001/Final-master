@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1041689926637",
+    "firebase_url": "https://test-da3c0.firebaseio.com",
+    "project_id": "test-da3c0",
+    "storage_bucket": "test-da3c0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1041689926637:android:4be41a074096a7a4",
+        "android_client_info": {
+          "package_name": "com.simcoder.test"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1041689926637-5d12k95eoncm3ku7kcqr3hib4lmogaen.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.simcoder.test",
+            "certificate_hash": "6cf1cb6e1f4ceb3f204308d5ddecc7146cd64ecc"
+          }
+        },
+        {
+          "client_id": "1041689926637-piuc3cf5iu49ht7edpa8dp2mrteejk1t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCCIv4TPlZ8wqi35793iy0tIc4_G4j-miw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1041689926637-piuc3cf5iu49ht7edpa8dp2mrteejk1t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.simcoder.test.SignUpActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/bgsignup">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:orientation="vertical"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp">
+
+            <EditText
+                android:id="@+id/editTextName"
+                android:layout_width="match_parent"
+                android:layout_height="59dp"
+                android:background="@color/arektu"
+                android:fontFamily="sans-serif"
+                android:hint="Name"
+                android:paddingBottom="15dp"
+                android:textColor="#c1bebe"
+                android:textColorHighlight="#c1bebe"
+                android:textColorHint="#c1bebe" />
+
+            <EditText
+                android:id="@+id/editTextEmail"
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                android:background="@color/arektu"
+                android:fontFamily="sans-serif"
+                android:hint="Email"
+                android:inputType="textEmailAddress"
+                android:paddingBottom="15dp"
+                android:textColor="#c1bebe"
+                android:textColorHint="#c1bebe" />
+
+            <EditText
+                android:id="@+id/editTextPassword"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:background="@color/arektu"
+                android:fontFamily="sans-serif"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:paddingBottom="15dp"
+                android:textColor="#c1bebe"
+                android:textColorHint="#c1bebe"/>
+
+            <TextView
+                android:id="@+id/DateofBirth"
+                android:layout_width="match_parent"
+                android:layout_height="63dp"
+                android:background="@color/arektu"
+                android:fontFamily="sans-serif"
+                android:gravity="start"
+                android:hint="Date of Birth"
+                android:paddingTop="15dp"
+                android:text="Date of Birth"
+                android:textAlignment="viewStart"
+                android:textColor="#c1bebe"
+                android:textColorHint="#c1bebe"
+                android:textSize="18sp" />
+
+            <Spinner
+                android:id="@+id/gender"
+                android:layout_width="match_parent"
+                android:layout_height="46dp"
+                android:background="@null"
+                android:textColor="#ffffff"
+                android:textSize="18sp"
+                android:visibility="visible" />
+
+            <Spinner
+                android:id="@+id/country"
+                android:layout_width="match_parent"
+                android:layout_height="46dp"
+                android:background="@null"
+                android:textColor="@color/colorAccent"
+                android:textSize="18sp"
+                android:visibility="visible" />
+            <EditText
+                android:id="@+id/editTextPhone"
+                android:layout_width="match_parent"
+                android:layout_height="59dp"
+                android:background="@color/arektu"
+                android:ems="10"
+                android:inputType="numberSigned"
+                android:fontFamily="sans-serif"
+                android:hint="Contact Number (With Country Code)"
+                android:paddingBottom="15dp"
+                android:textColor="#c1bebe"
+                android:textColorHighlight="#c1bebe"
+                android:textColorHint="#c1bebe" />
+
+            <Button
+                android:id="@+id/buttonSignUp"
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:layout_width="354dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="7dp"
+                android:background="@color/common_google_signin_btn_text_light_focused"
+                android:text="Sign Up"
+                android:textAllCaps="false"
+                android:textColor="#c1bebe"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textViewLogin"
+                android:layout_width="354dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/progressbar"
+                android:layout_centerHorizontal="true"
+                android:background="@color/common_google_signin_btn_text_light_default"
+                android:padding="15dp"
+                android:text="Already have an account? Login"
+                android:textAlignment="center"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                android:textColor="#c1bebe"/>
+
+
+        </LinearLayout>
+
+        <ProgressBar
+            android:id="@+id/progressbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:visibility="gone" />
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>

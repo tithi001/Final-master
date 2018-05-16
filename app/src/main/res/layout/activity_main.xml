@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bgsignup"
+    tools:context="com.simcoder.test.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="190dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp">
+
+
+        <EditText
+            android:id="@+id/editTextEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:hint="email"
+            android:inputType="textEmailAddress"
+            android:paddingBottom="15dp"
+            android:singleLine="true"
+            android:textColor="#c1bebe"
+            android:textColorHint="#c1bebe" />
+
+        <EditText
+            android:id="@+id/editTextPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="85dp"
+            android:fontFamily="sans-serif"
+            android:hint="password"
+            android:inputType="textPassword"
+            android:paddingBottom="15dp"
+            android:textColor="#c1bebe"
+            android:textColorHint="#c1bebe" />
+
+        <Button
+            android:id="@+id/buttonLogin"
+            android:layout_width="match_parent"
+            android:layout_height="47dp"
+            android:layout_gravity="center"
+            android:layout_margin="7dp"
+            android:background="@drawable/border"
+            android:text="Login"
+            android:textAllCaps="false"
+            android:textColor="#c1bebe"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textViewSignup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="Don't have account? Sign Up"
+            android:textAlignment="center"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:textColor="#c1bebe" />
+
+
+    </LinearLayout>
+    <ProgressBar
+        android:id="@+id/progressbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1"
+        android:visibility="gone" />
+
+
+</LinearLayout>
